@@ -21,6 +21,7 @@ ul {
     margin:0;
     padding:0;
     list-style: none;
+    letter-spacing: 0.03em;
 }
 
 img {
@@ -37,10 +38,6 @@ a:focus {
     text-decoration: none;
 }
 
-button {
-    border: none;
-    color: currentColor;
-}
 
 .hidden {
     position: absolute !important;
@@ -51,22 +48,6 @@ button {
     height: 0 !important;
     width: 0 !important;
     overflow: hidden;
-}
-
-.container {
-    width: $container_widtch;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-.flex-row {
-    display: flex;
-    justify-content: space-between;
-}
-
-.flex-col {
-    display: flex;
-    flex-direction: column;
 }
 
 .title {
