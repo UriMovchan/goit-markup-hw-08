@@ -27,6 +27,10 @@
     font: inherit;
     font-weight: 700;
     text-transform: uppercase;
+
+    @include from(tablet) {
+        text-align: left;
+    }
 }
 
 .features__text {

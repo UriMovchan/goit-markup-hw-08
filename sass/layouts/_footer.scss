@@ -24,12 +24,17 @@ footer {
 }
 
 .footer__item {
-    &:not(:last-child) {
-        margin-bottom: 60px;
+    
+    @include to(desktop) {
+        &:not(:last-child) {
+            margin-bottom: 60px;
+        }
     }
     &.address { 
         @include from(desktop) {
             margin-right: 70px;
+            text-align: left;
+            line-height: 1.71;
         }
     }
 
@@ -42,10 +47,14 @@ footer {
 }
 
 address li { 
-    margin-bottom: 8px; 
+    &:not(:last-child) {
+        margin-bottom: 8px;
+    } 
 
     @include from(desktop) {
-        margin-bottom: 9px;
+        &:not(:last-child) {
+            margin-bottom: 9px;
+        }
     }
 }
 
