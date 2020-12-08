@@ -108,7 +108,7 @@
     letter-spacing: 0.01em;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-    color: rgba(117, 117, 117, 0.5);
+    color: rgb(117, 117, 117);
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &::placeholder {
@@ -131,7 +131,7 @@
     width: 100%;
     height: 40px;
     padding-left: 42px;
-    color: rgba(117, 117, 117, 0.5);
+    color: rgb(117, 117, 117);
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
